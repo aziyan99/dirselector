@@ -7,7 +7,7 @@ directory into the console.
 
 Download the latest release from the release page or clone this repository and build the project using `Make` command. The executeable will be available inside the `build` directory.
 
-To build the hostsrw without using `Make`:
+To build the dirselector without using `Make`:
 ```
 go build -mod=readonly -ldflags "-s -w" -o .\build\dirselector.exe .\cmd\dirselector\dirselector.go
 ```
